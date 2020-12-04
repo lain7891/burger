@@ -15,23 +15,33 @@
 
 <img class="image" src="./assets/img/burger.jpg" alt="Burger" style="width: 400px", "height: 400px"/>
 
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
 <ul>
   {{#each burgers}}
-    {{#unless devour}}
-      {{> burgers/burger-block devour=true}}
+    {{#unless devoured}}
+      {{> burger/burger-block devour=true}}
     {{/unless}}
   {{/each}}
 </ul>
-
-<h2>Burgers Devoured!</h2>
-
+        </div>
+         <div class="col-sm-6">
 <ul>
   {{#each burgers}}
-    {{#if devour}}
-      {{> burgers/burger-block devour=false}}
+    {{#if devoured}}
+      {{> burger/burger-block devour=false}}
     {{/if}}
   {{/each}}
 </ul>
+         </div>
+    </div>
+</div>
+
+
+{{!-- <h2>Burgers Devoured!</h2> --}}
+
+
 
 <h2>Add a Burger</h2>
 <form class="create-form">
@@ -49,3 +59,4 @@
 
   <button type="submit">Add Burger</button>
 </form>
+
