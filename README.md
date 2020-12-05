@@ -23,12 +23,16 @@ For this assignment we were to create a burger app that allows you to add a type
 
 ## Usage
 
+![readme-gif](assets/img/Burger.gif)
+
 * Node
 * Query Connections
 * Handlebars
 * MySQL & MySQL Workbench
 * Express
 * ORM
+
+<img src="assets/img/burgerPage.png" width="800" height="600"/>
 
 ## Credits
 
