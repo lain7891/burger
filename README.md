@@ -32,7 +32,7 @@ For this assignment we were to create a burger app that allows you to add a type
 * Express
 * ORM
 
-<img src="public/assets/img/burgerPage.png" width="400" height="400"/>
+<img src="public/assets/img/burgerPage.png" width="600" height="400"/>
 
 ## Credits
 
