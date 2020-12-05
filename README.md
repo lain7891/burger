@@ -23,7 +23,7 @@ For this assignment we were to create a burger app that allows you to add a type
 
 ## Usage
 
-![readme-gif](assets/img/Burger.gif)
+![readme-gif](public/assets/img/Burger.gif)
 
 * Node
 * Query Connections
@@ -32,7 +32,7 @@ For this assignment we were to create a burger app that allows you to add a type
 * Express
 * ORM
 
-<img src="assets/img/burgerPage.png" width="800" height="600"/>
+<img src="public/assets/img/burgerPage.png" width="400" height="400"/>
 
 ## Credits
 
