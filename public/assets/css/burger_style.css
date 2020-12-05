@@ -5,5 +5,9 @@ body {
 };
 
 h1 {
-    font-size: 500px;
+    font-size: 500px !important ;
+  
+
+
 };
+

@@ -7,7 +7,8 @@ const router = express.Router();
 router.get("/", function(req, res) {
   burger.selectAll(function(data) {
     var hbsObject = {
-      burgers: data
+      burgers: data,
+    //   style: 'burger_style.css'
     };
     console.log(hbsObject);
     res.render("index", hbsObject);
@@ -18,7 +19,7 @@ router.get("/", function(req, res) {
 router.post("/api/burgers", function(req, res) {
     console.log(req.body);
   burger.insertOne([
-    "burger_name", "devoured"
+    "burger_name", "devoured",
   ], [
     req.body.burger_name, req.body.devoured
   ], function(result) {
