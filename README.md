@@ -12,6 +12,7 @@ For this assignment we were to create a burger app that allows you to add a type
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
+* [Links](#links)
 * [License](#license)
 
 ## Installation
@@ -38,9 +39,11 @@ For this assignment we were to create a burger app that allows you to add a type
 
 Created by myself as a homework assignment for Georgia Tech Full-Stack Flex Program.
 
-## GitHub Link
+## Links
 
 [GitHub](https://github.com/lain7891/burger)
+
+[Heroku](https://lit-mesa-75042.herokuapp.com/)
 
 ## License
 
